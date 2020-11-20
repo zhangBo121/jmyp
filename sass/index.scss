@@ -1,0 +1,160 @@
+.container{
+  width: 1190px;
+  margin: 0 auto;
+}
+.head-t{
+  background: #f2f2f2;
+}
+.t_top{
+  line-height: 48px;
+  /* background: pink; */
+  height: 50px;
+  border-bottom:1px solid #e5e5e5;
+  border-top:1px solid #e5e5e5;
+  font-size: 20px;
+  color:  #999999;
+}
+.t_top p:nth-child(1){
+  float: left;
+  margin-right: 20px;
+}
+/* 登录 */
+.login{
+  margin-right: 15px;
+  float: left;
+  cursor: pointer;
+}
+/* 注册 */
+.sign{
+  float: left;
+  cursor: pointer;
+}
+.login:hover,.sign:hover{
+  color: #ee2466;
+}
+/* 右侧导航 */
+.t_topRight{
+  float: right;
+}
+/* 正品保证 */
+.t_topRight p{
+  margin-right: 20px;
+}
+/* 订单查询、收藏、我的聚美及部分公共样式 */
+.t_topRight b,.t_topRight span,.t_topRight em,.t_topRight strong{
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.t_topRight span i{
+  font-size: 20px;
+}
+/* 手机聚美 */
+.t_topRight strong{
+  color: #ee2466;
+  border-left: 1px solid #999;
+  border-right: 1px solid #999999;
+  padding:  0 10px;
+}
+.t_topRight strong i{
+  font-size: 20px;
+}
+/* 更多 */
+.t_topRight>i{
+  cursor: pointer;
+}
+/* 鼠标滑过 */
+.t_topRight p:hover,.t_topRight b:hover,.t_topRight span:hover,.t_topRight>i:hover,.t_topRight em:hover{
+  color: #ee2466;
+}
+/* 以上是顶部注册登录 。。。*/
+
+
+/* 顶部log 搜索 。。。*/
+.head-bot{
+  height: 126px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 搜索中间部分 */
+.top_search{
+  width: 540px;
+  height: 66px;
+}
+.top_search div{
+  width: 540px;
+  margin-bottom: 8px;
+}
+.top_search div input{
+  width: 432px;
+  height: 35px;
+  border: 2px solid #ed145b;
+  padding-left: 10px;
+}
+.top_search div span{
+  /* display: block; */
+  float: right;
+  width: 108px;
+  height: 35px;
+  line-height: 35px;
+  font-weight: 800;
+  background: #ed145b;
+  text-align: center;
+  color: #eee;
+  cursor: pointer;
+}
+/* 搜索下面的导航 */
+.top_search ul{
+  display: flex;
+}
+.top_search ul li{
+  font-size: 12px;
+  margin-left: 10px;
+  border-left: 1px solid #999999;
+  color: #999999;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.top_search ul li:nth-child(1){
+  margin: 0;
+  border-left: 0;
+  padding-left: 0;
+}
+/* 购物车按钮 */
+.head-bot>span{
+  border: 1px solid #cccccc;
+  width: 140px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  padding: 0 8px;
+  cursor: pointer;
+  color: #999999;
+}
+.head-bot>span i{
+  float: left;
+  color: rgb(223, 14, 49);
+  margin-right: 5px;
+}
+
+
+/* 导航部分 */
+.navigation{
+  background: #000;
+
+}
+.nav{
+  float: left;
+}
+.nav ul{
+  display: flex;
+
+}
+.nav div{
+  float: right;
+}
+.mmm{
+
+
+}

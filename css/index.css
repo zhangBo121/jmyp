@@ -6,12 +6,12 @@
     background: #f2f2f2;
 }
 .t_top{
-    line-height: 48px;
+    line-height: 36px;
     /* background: pink; */
-    height: 50px;
+    height: 36px;
     border-bottom:1px solid #e5e5e5;
     border-top:1px solid #e5e5e5;
-    font-size: 20px;
+    font-size: 16px;
     color:  #999999;
 }
 .t_top p:nth-child(1){
@@ -141,16 +141,52 @@
 
 /* 导航部分 */
 .navigation{
-    background: #000;
-
+    background: rgb(20,20,20);
+    overflow: hidden;
+    height: 40px;
 }
 .nav{
-    float: left;
+    line-height: 40px;
 }
 .nav ul{
     display: flex;
-
+    float: left;
+}
+.nav ul li{
+    width: 110px;
+    text-align: center;
+    color: #eee;
+    cursor: pointer;
+    font-weight: 900;
+}
+.nav ul li:hover{
+    color: rgb(172,172,172);
 }
 .nav div{
     float: right;
+    color: #999999;
+}
+.nav div span{
+    margin-right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.nav div b{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.active{
+    background: #ed145b;
+}
+
+
+/* 主体内容区 */
+.content div{
+    display: none;
+    background: lightpink;
+    min-height: 500px;
+}
+.content .show {
+    display: block;
 }

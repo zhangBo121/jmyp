@@ -7,7 +7,6 @@
 }
 .t_top{
   line-height: 48px;
-  /* background: pink; */
   height: 50px;
   border-bottom:1px solid #e5e5e5;
   border-top:1px solid #e5e5e5;
@@ -76,6 +75,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #000;
 }
 /* 搜索中间部分 */
 .top_search{
@@ -141,7 +141,8 @@
 
 /* 导航部分 */
 .navigation{
-  background: #000;
+  // background: #000;
+  background: pink;
 
 }
 .nav{
@@ -154,8 +155,4 @@
 .nav div{
   float: right;
 }
-.mmm{
-  width: 100px;
-  height: 100px;
 
-}

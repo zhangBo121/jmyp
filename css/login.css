@@ -1,36 +1,44 @@
-.container{
+.container {
     width: 960px;
     margin: 0 auto;
 }
-.wrap{
+
+.wrap {
     overflow: hidden;
 }
-.header{
+
+.header {
     overflow: hidden;
     width: 960px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.header section{
+
+.header section {
     float: left;
     width: 154px;
     height: 59px;
 }
-.header ul{
+
+.header ul {
     float: right;
     display: flex;
 }
-.header ul li{
+
+.header ul li {
     margin-left: 10px;
 }
 
+
 /* 中间部分 */
-.main{
+
+.main {
     height: 500px;
     margin-bottom: 80px;
     background: url(../img/login_bg.jpg)no-repeat;
 }
-.content{
+
+.content {
     width: 360px;
     height: 370px;
     border: 1px solid #eeeeee;
@@ -38,37 +46,49 @@
     float: right;
     padding: 15px;
 }
-.login-big>section{
+
+.login-big>section {
     /* display: block; */
     display: none;
 }
-/* .login-big section:nth-child(2){
-    display: none;
-} */
-.h2s{
+
+
+/* 加上show显示 */
+
+.login-big .show {
+    display: block;
+}
+
+
+/* 用户登录注册标题 */
+
+.h2s {
     display: flex;
     text-align: center;
-    
 }
-.h2s h2{
+
+.h2s h2 {
     width: 180px;
     height: 40px;
     line-height: 40px;
     font-size: 20px;
     font-weight: 900;
-    color: rgb(227,18,86);
+    color: rgb(227, 18, 86);
     cursor: pointer;
     margin-bottom: 20px;
     border-bottom: 1px solid #000;
 }
-.h2s h2:nth-child(1){
+
+.h2s h2:nth-child(1) {
     border-right: 1px solid #eeeeee;
 }
 
+
 /* 登录 */
-.login{
-    display: none;
-}
+
+
+/* 登录中的登录方式标题 */
+
 .h3s {
     display: flex;
     justify-content: space-around;
@@ -76,142 +96,179 @@
     border-bottom: 1px solid lightblue;
     padding-bottom: 5px;
 }
-.h3s h3{
+
+.h3s h3 {
+    width: 180px;
+    height: 24px;
+    line-height: 24px;
     text-align: center;
     cursor: pointer;
     font-size: 12px;
-    color: rgb(227,18,86);
+    color: rgb(227, 18, 86);
 }
 
+
 /* 手机验证码登录 */
-.login01{
-    position: relative;
+
+.login00>section {
     display: none;
 }
-.user{
+
+.login01 {
+    position: relative;
+    /* display: none; */
+}
+
+.user {
     width: 330px;
     height: 30px;
     padding-left: 30px;
 }
-.login01 p:nth-child(1){
+
+.login01 p:nth-child(1) {
     margin-bottom: 10px;
 }
-.login01 p:nth-child(1) i{
+
+.login01 p:nth-child(1) i {
     position: absolute;
     top: 6px;
     left: 10px;
 }
-.passLogin{
+
+.passLogin {
     width: 150px;
     height: 30px;
     padding-left: 30px;
 }
-.login01 p:nth-child(2){
+
+.login01 p:nth-child(2) {
     margin-bottom: 10px;
 }
-.login01 p:nth-child(2) i{
+
+.login01 p:nth-child(2) i {
     position: absolute;
     top: 44px;
     left: 10px;
     font-size: 18px;
 }
-.login01 p:nth-child(2) button{
+
+.login01 p:nth-child(2) button {
     width: 130px;
     height: 30px;
     margin-left: 10px;
 }
-.login01 p:nth-child(3){
+
+.login01 p:nth-child(3) {
     font-size: 14px;
     margin-bottom: 15px;
 }
-.checked{
+
+.checked {
     margin-right: 5px;
 }
-.btn01{
+
+.btn01 {
     width: 330px;
     height: 30px;
-    background: rgb(229,64,111);
+    background: rgb(229, 64, 111);
     border: 0;
     border-radius: 3px;
     margin-bottom: 10px;
 }
+
+
 /* 普通登录 */
-.login02{
+
+.login02 {
     position: relative;
     /* display: none; */
 }
-.login02 p:nth-child(1){
+
+.login02 p:nth-child(1) {
     margin-bottom: 10px;
 }
-.login02 p:nth-child(1) input{
+
+.login02 p:nth-child(1) input {
     width: 330px;
     height: 30px;
     padding-left: 30px;
 }
-.login02 p:nth-child(1) i{
+
+.login02 p:nth-child(1) i {
     position: absolute;
     top: 6px;
     left: 10px;
 }
-.login02 p:nth-child(2){
+
+.login02 p:nth-child(2) {
     margin-bottom: 10px;
 }
-.login02 p:nth-child(2) input{
+
+.login02 p:nth-child(2) input {
     width: 330px;
     height: 30px;
     padding-left: 30px;
 }
-.login02 p:nth-child(2) i{
+
+.login02 p:nth-child(2) i {
     position: absolute;
     top: 44px;
     left: 10px;
     font-size: 18px;
 }
-.login02 p:nth-child(3){
+
+.login02 p:nth-child(3) {
     margin-bottom: 10px;
 }
-.login02 p:nth-child(3) input{
+
+.login02 p:nth-child(3) input {
     width: 150px;
     height: 30px;
     padding-left: 10px;
 }
-.login02 p:nth-child(3) button{
+
+.login02 p:nth-child(3) button {
     width: 130px;
     height: 30px;
     margin-left: 10px;
 }
-.login02 p:nth-child(4){
+
+.login02 p:nth-child(4) {
     font-size: 14px;
     margin-bottom: 15px;
 }
-.login02 p:nth-child(4) span{
+
+.login02 p:nth-child(4) span {
     float: right;
     cursor: pointer;
-
 }
-.checked01{
+
+.checked01 {
     margin-right: 5px;
 }
-.btn02{
+
+.btn02 {
     width: 330px;
     height: 30px;
-    background: rgb(229,64,111);
+    background: rgb(229, 64, 111);
     border: 0;
     border-radius: 3px;
     margin-bottom: 10px;
 }
 
 
-
 /* 其他方式登录 */
-.p1{
+
+.p1 {
     font-size: 14px;
     margin-bottom: 10px;
 }
-.other{
+
+.other {
     width: 300px;
 }
-.other i{
+
+.other i {
     font-size: 30px;
     margin-right: 20px;
     color: lightblue;
@@ -219,26 +276,26 @@
 }
 
 
-
 /* 注册 */
-.sign{
-    /* display: none; */
-}
-.sign input{
+
+.sign input {
     width: 330px;
     height: 30px;
     margin-bottom: 20px;
     padding-left: 10px;
 }
-.login-big .sign .securityCode{
+
+.login-big .sign .securityCode {
     width: 150px;
     margin-right: 20px;
 }
-.gain{
+
+.gain {
     height: 30px;
     width: 86px;
 }
-.agree{
+
+.agree {
     width: 330px;
     height: 30px;
     border: 0;
@@ -246,49 +303,57 @@
     line-height: 30px;
     border-radius: 3px;
     cursor: pointer;
-    background: rgb(229,64,111);
+    background: rgb(229, 64, 111);
 }
-.agreement{
+
+.agreement {
     width: 330px;
     height: 30px;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
-.agreement span{
+
+.agreement span {
     text-align: center;
     width: 150px;
     font-size: 12px;
-    color: rgb(229,64,111);
+    color: rgb(229, 64, 111);
 }
+
 
 /* 显示 */
-.show{
+
+.login00 .active {
     display: block;
 }
-.active{
-    display: block;
+
+.h2s .lsh2 {
+    background: rgba(233, 136, 170, 0.5);
 }
 
-
-
-
+.lsh3 {
+    background: rgba(176, 232, 240, 0.5);
+}
 
 
 /* 底部 */
-.footer{
+
+.footer {
     overflow: hidden;
 }
-.footer p{
+
+.footer p {
     font-size: 12px;
     text-align: center;
     margin-bottom: 10px;
 }
-.footer ul{
+
+.footer ul {
     display: flex;
     margin: 20px 126px;
-
 }
-.footer ul li{
+
+.footer ul li {
     margin-left: 15px;
 }

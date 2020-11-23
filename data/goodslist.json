@@ -1,10 +1,201 @@
-[
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款1","imgurl":"img/goods1.png","price":"￥168","code":"abc1"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款2","imgurl":"img/goods2.png","price":"￥588","code":"abc2"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款3","imgurl":"img/goods3.png","price":"￥238","code":"abc3"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款4","imgurl":"img/goods4.png","price":"￥768","code":"abc4"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款5","imgurl":"img/goods5.png","price":"￥418","code":"abc5"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款6","imgurl":"img/goods6.png","price":"￥118","code":"abc6"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款7","imgurl":"img/goods7.png","price":"￥328","code":"abc7"},
-	{"title":"男女款低帮帆布鞋，春季时尚情侣款8","imgurl":"img/goods8.png","price":"￥888","code":"abc8"}
+[{
+        "id": "01",
+        "title": "【2支装】资生堂洗颜专科洗面奶 120g*2",
+        "imgurl": "../img/goods01.jpg",
+        "price": "￥56",
+        "detail": {
+            "title": "SHISEIDO 资生堂SENKA 洗颜专科绵润泡沫洁面乳 120g*2!控油平衡深层清洁各种肤质通用。控油平衡 深层清洁 细致毛孔",
+            "biglistImg": [
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg"
+            ],
+            "detailList": [
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg",
+                "../img/goods01.jpg"
+            ]
+        }
+    },
+    {
+        "id": "02",
+        "title": "法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒",
+        "imgurl": "../img/goods02.jpg",
+        "price": "￥95",
+        "detail": {
+            "title": "【新出红色新年礼盒】法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒，礼物Q版5ml*4 甜心+魅惑+真我浓香+真我淡香 四件套【Dior和gift版本随机发】，小样无密封，所以留香可能没有正装持久，介意慎拍！！",
+            "biglistImg": [
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg"
+            ],
+            "detailList": [
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg",
+                "../img/goods02.jpg"
+            ]
+        }
+    },
+    {
+        "id": "03",
+        "title": "【官方授权】SNP黄金胶原蛋白精华面膜 满99立减30",
+        "imgurl": "../img/goods03.jpg",
+        "price": "￥79",
+        "detail": {
+            "title": "SNP黄金胶原蛋白精华面膜10片/盒！来自韩国的小金猪，添加高浓度安瓶精华，比普通精华营养高，比普通面膜更有效，效果滋润持久！每1000mg精华中就含有0.3mg，专门针对淡化细纹、祛黄、紧致！让你的脸庞一下子年轻十岁，颜值如黄金般爆表！满99元立减30",
+            "biglistImg": [
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg"
+            ],
+            "detailList": [
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg",
+                "../img/goods03.jpg"
+            ]
+        }
+    },
+    {
+        "id": "04",
+        "title": "【多色号可选】RAY蚕丝面膜10片*2 金/银",
+        "imgurl": "../img/goods04.jpg",
+        "price": "￥65",
+        "detail": {
+            "title": "【多色号可选】RAY金银色蚕丝面膜10片*2金银色各1盒 金色款：适合改善肤色暗沉，提拉紧致的人群 银色款：适合油性肌肤，补水保湿的人群",
+            "biglistImg": [
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg"
+            ],
+            "detailList": [
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg",
+                "../img/goods04.jpg"
+            ]
+        }
+    },
+    {
+        "id": "05",
+        "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "imgurl": "../img/goods05.jpg",
+        "price": "￥110",
+        "detail": {
+            "title": "富含极地浆果精粹、瞬时提亮因子。以一款具有亮肤功效的男士护肤产品，并不需要卸妆，配方温和，质地清爽；适合中性肤质使用；可以即刻焕亮皮肤，亮肤效果立竿见影",
+            "biglistImg": [
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg"
+            ],
+            "detailList": [
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg",
+                "../img/goods05.jpg"
+            ]
+        }
+    },
+    {
+        "id": "06",
+        "title": "法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒",
+        "imgurl": "../img/goods06.jpg",
+        "price": "￥95",
+        "detail": {
+            "title": "【新出红色新年礼盒】法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒，礼物Q版5ml*4 甜心+魅惑+真我浓香+真我淡香 四件套【Dior和gift版本随机发】，小样无密封，所以留香可能没有正装持久，介意慎拍！！",
+            "biglistImg": [
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg"
+            ],
+            "detailList": [
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg",
+                "../img/goods06.jpg"
+            ]
+        }
+    },
+    {
+        "id": "07",
+        "title": "YSL圣罗兰自由至上女士香水 EDP浓香水30-50-90ML 2019新品",
+        "imgurl": "../img/goods07.jpg",
+        "price": "￥356",
+        "detail": {
+            "title": "YSL圣罗兰自由至上女士香水 EDP浓香水30-50-90ML 2019新品",
+            "biglistImg": [
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg"
+            ],
+            "detailList": [
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg",
+                "../img/goods07.jpg"
+            ]
+        }
+    },
+    {
+        "id": "08",
+        "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "imgurl": "../img/goods08.jpg",
+        "price": "￥249",
+        "detail": {
+            "title": "范思哲（versace）男士香水30ml，灵感元素来自于地中海一透过海洋的光与热，释放出现代男人的智慧与自信，以及和自然建立和谐关系的深刻内涵。尽展男子气概和热情的性格；此香水献给性格强烈，不畏展露热爱时尚，享受使用时展现自然风格与个人特色的男人！",
+            "biglistImg": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ],
+            "detailList": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ]
+        }
+    }
 ]

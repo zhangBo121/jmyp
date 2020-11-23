@@ -1,6 +1,57 @@
 
 
 
+// 我的聚美二级导航
+var myjm = document.querySelector('.t_topRight em')
+var myjumei = document.querySelector('.myjumei')
+
+myjm.onmouseover = function(){
+    myjumei.style.display = 'block'
+}
+myjm.onmouseout = function(){
+    myjumei.style.display = 'none'
+}
+myjumei.onmouseover = function(){
+    myjumei.style.display = 'block'
+}
+myjumei.onmouseout = function(){
+    myjumei.style.display = 'none'
+}
+
+// 更多二级导航
+var moreFather = document.querySelector('.t_topRight>i')
+var more = document.querySelector('.more')
+
+moreFather.onmouseover = function(){
+    more.style.display = 'block'
+}
+moreFather.onmouseout = function(){
+    more.style.display = 'none'
+}
+more.onmouseover = function(){
+    more.style.display = 'block'
+}
+more.onmouseout = function(){
+    more.style.display = 'none'
+}
+
+// 更多 -- 聚美微信 -- 三级菜单
+var moreQR = document.querySelector('.moreQR')
+var moreQRFather = document.querySelector('.moreQRFather')
+console.log(moreQR);
+console.log(moreQRFather);
+moreQRFather.onmouseover = function(){
+    moreQR.style.display = 'block'
+}
+moreQRFather.onmouseout = function(){
+    moreQR.style.display = 'none'
+}
+moreQR.onmouseover = function(){
+    moreQR.style.display = 'block'
+}
+moreQR.onmouseout = function(){
+    more.style.display = 'none'
+}
 
 
 

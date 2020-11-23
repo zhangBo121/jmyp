@@ -29,12 +29,16 @@
     float: left;
     cursor: pointer;
 }
+.login a , .sign a{
+    color:  #999999;
+}
 .login:hover,.sign:hover{
     color: #ee2466;
 }
 /* 右侧导航 */
 .t_topRight{
     float: right;
+    position: relative;
 }
 /* 正品保证 */
 .t_topRight p{
@@ -44,6 +48,28 @@
 .t_topRight b,.t_topRight span,.t_topRight em,.t_topRight strong{
     margin-right: 10px;
     cursor: pointer;
+}
+/* 我的聚美-二级导航 */
+.myjumei{
+    width: 116px;
+    position: absolute;
+    top: 28px;
+    left: 264px;
+    border: 1px solid #eee;
+    border-top: none;
+    padding: 10px 15px 10px;
+    background: rgb(255,255,255);
+    z-index: 50;
+    display: none;
+}
+.myjumei li{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.myjumei li:hover{
+    color: #ee2466;
 }
 
 .t_topRight span i{
@@ -62,6 +88,42 @@
 /* 更多 */
 .t_topRight>i{
     cursor: pointer;
+}
+/* 更多二级导航 */
+.more{
+    width: 116px;
+    position: absolute;
+    top: 28px;
+    right: 0;
+    border: 1px solid #eee;
+    border-top: none;
+    padding: 10px 15px 10px;
+    background: rgb(255,255,255);
+    z-index: 50;
+    display: none;
+}
+.more li{
+    height: 26px;
+    line-height: 26px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.more li:hover{
+    color: #ee2466;
+}
+
+.more b.moreQR{
+    position: absolute;
+    top: 46px;
+    left: -66px;
+    font-size: 60px;
+    border: 1px solid #eee;
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    text-align: center;
+    line-height: 80px;
+    display: none;
 }
 /* 鼠标滑过 */
 .t_topRight p:hover,.t_topRight b:hover,.t_topRight span:hover,.t_topRight>i:hover,.t_topRight em:hover{
@@ -142,11 +204,13 @@
 /* 导航部分 */
 .navigation{
     background: rgb(20,20,20);
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 40px;
+    position: relative;
 }
 .nav{
     line-height: 40px;
+    height: 40px;
 }
 .nav ul{
     display: flex;
@@ -164,6 +228,7 @@
 }
 .nav div{
     float: right;
+    height: 40px;
     color: #999999;
 }
 .nav div span{
@@ -179,6 +244,25 @@
 .active{
     background: #ed145b;
 }
+/* 美妆商城二级导航 */
+/* nav div.beautyMakeup{
+    background: lightblue;
+    height: 310px;
+    width: 1190px;
+    margin: 0 auto;
+    position: absolute;
+    top: 40px;
+    z-index: 50;
+    padding: 10px;
+    display: none;
+}
+.beautyMakeup_top{
+    width: 1170px;
+    height: 155px;
+    margin: 0 auto;
+    border-bottom: 1px solid #000;
+} */
+
 
 
 /* 主体内容区 */
@@ -194,7 +278,7 @@
 
 /* 首页轮播图 */
 .slide_big{
-    height: 234px;
+    height: 217px;
     width: 1190px;
     position: relative;
 }
@@ -238,13 +322,14 @@
 
 /* 图片 */
 .slide{
-    height: 234px;
+    height: 217px;
+    width: 1190px;
     overflow-y: hidden;
-    overflow-x: auto;
+    overflow-x: hidden;
 } 
 .slideshow{
     width: 9999px;
-
+    height: 217px;
 }
 
 .slideshow img{
@@ -256,13 +341,13 @@
 .slide_big ul{
     display: flex;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     left: 50%;
     margin-left: -55px;
 }
 .slide_big ul li{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 5px;
     background: rgba(241, 6, 85, 0.5);
     margin-left: 10px;
     text-align: center;
@@ -272,6 +357,26 @@
 .list li.num {
     background: rgba(16, 231, 221, 0.6);
 }
+/* 首页主体内容区 */
+.intro{
+    margin-bottom: 5px;
+}
+.intro h2{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 900;
+    background: rgb(26,76,101);
+    text-align: center;
+}
+.intro img{
+    width: 1190px;
+}
+
+
+
+
+
 
 
 /* 底部 */

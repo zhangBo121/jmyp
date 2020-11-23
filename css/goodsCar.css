@@ -1,0 +1,156 @@
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
+/* 头部 */
+.header{
+    height: 100px;
+    border-bottom: 2px solid #eeeeee;
+}
+.head{
+    background: pink;
+    height: 100px;
+    overflow: hidden;
+}
+.head p{
+    width: 154px;
+    margin: 20px 0 0 0;
+}
+
+
+/* 中间部分 */
+.main{
+    width: 960px;
+    min-height: 500px;
+    /* background: lightgreen; */
+    overflow: hidden;
+    /* padding: ; */
+}
+.goodsCar_top{
+    height: 25px;
+    margin: 15px 0;
+    padding: 0 10px;
+}
+.goodsCar_top img{
+    float: right;
+}
+
+/* 商品 */
+.goods{
+    height: 170px;
+    margin: 10px 0 0 20px;
+}
+.goods_top{
+    height: 38px;
+    background: rgb(250,250,250);
+    border: 1px solid #eeeeee;
+}
+.t_left{
+    line-height: 38px;
+    display: flex;
+    float: left;
+}
+.t_left input{
+    margin: 12px 0 0 3px;
+}
+.t_left p{
+    font-size: 14px;
+    margin-left: 10px;
+}
+.t_right{
+    line-height: 38px;
+    float: right;
+}
+.t_right span{
+    margin: 0 40px;
+    font-size: 14px;
+}
+
+
+/* 商品中部 */
+.goods_main{
+    height: 100px;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+.m_left{
+    float: left;
+    width: 420px;
+    display: flex;
+    margin: 20px;
+}
+.check01{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.m_left img{
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+.m_left>div p,.m_left>div b{
+    font-size: 14px;
+
+}
+
+.m_right{
+    margin-top: 30px;
+    float: right;
+    display: flex;
+    width: 476px;
+}
+.m_right>b{
+    margin-left: 20px;
+}
+.num{
+    margin-left: 92px;
+    width: 70px;
+    display: flex;
+}
+.num b{
+    width: 20px;
+    height: 20px;
+    background: #999999;
+    border: 1px solid #eeeeee;
+    padding: 0 6px;
+    line-height: 18px;
+}
+.num i{
+    width: 20px;
+    height: 20px;
+    line-height: 18px;
+    background: #999999;
+    border: 1px solid #eeeeee;
+    padding: 0 4px;
+}
+.num em{
+    display: block;
+    width: 20px;
+    text-align: center;
+}
+.m_right strong{
+    margin-left:62px;
+    width: 80px;
+    color: rgb(248,57,119);
+}
+.m_right span{
+    margin-left: 60px;
+
+}
+
+/* 商品底部 */
+.goods_foot{
+    height: 34px;
+    background: rgb(250,250,250);
+    border: 1px solid #eeeeee;
+    padding-right: 10px;
+}
+.goods_foot p{
+    float: right;
+    line-height: 34px;
+    font-size: 16px;
+}
+.goods_foot p b,.goods_foot p span{
+    color: rgb(248,57,119);
+    font-weight: 900;
+}

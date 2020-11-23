@@ -381,7 +381,7 @@
 
 /* 底部 */
 .foot{
-    background: lightgreen;
+    /* background: lightgreen; */
     height: 500px;
     overflow: hidden;
 }

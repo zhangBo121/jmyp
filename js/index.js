@@ -1,4 +1,4 @@
-// 我的聚美二级导航
+// 我的聚美二级菜单
 var myjm = document.querySelector('.t_topRight em')
 var myjumei = document.querySelector('.myjumei')
 
@@ -15,7 +15,7 @@ myjumei.onmouseout = function() {
     myjumei.style.display = 'none'
 }
 
-// 更多二级导航
+// 更多二级菜单
 var moreFather = document.querySelector('.t_topRight>i')
 var more = document.querySelector('.more')
 
@@ -63,8 +63,6 @@ for (var i = 0; i < navs.length; i++) {
     navs[i].index = i
         // 给每个li 添加点击事件
     navs[i].onclick = function() {
-
-        console.log(this.index);
         // 取消上一次点击的li 的类名
         navs[prevIndex].className = ''
         divs[prevIndex].className = ''
@@ -241,3 +239,42 @@ function slidePhoto() {
         }
     }
 }
+
+
+
+// 商品列表页js代码
+var goodslist = document.querySelector('.goodslist') //获取商品列表页的大盒子
+
+// 获取商品数据
+ajax({
+    url: '../data/goodslist.json', //请求路径
+    type: 'get', //请求方式
+    data: '', //获取数据时传回给后端的参数，没有可以不传
+    dataType: "json", //得到的数据形式
+    cache: 'false', //是否需要缓存，false为不需要
+    success: function(json) { //数据获取成功，可以渲染页面
+        console.log(json);
+
+        json.forEach((item, index) => {
+            // 创建节点
+            var div = document.createElement('div')
+                // 记录索引
+            div.index = index
+                // 给创建的div添加类名
+            div.className = 'gLs'
+                // 给div添加数据
+            div += `
+                    <p>【非自营】</p>
+                    <p><img src="${item.imgurl}" alt=""></p>
+                    <p>${item.title}</p>
+                    <p><i>￥</i><span>${item.price}</span></p>
+                    <p><span id='${item.code}'>去看看</span></p>
+                    `
+            goodslist.appendChild(div)
+        });
+    },
+    error: function(err) {
+        console.log(err);
+    }
+
+})

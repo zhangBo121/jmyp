@@ -331,33 +331,11 @@
 }
 
 
-/* 美妆商城二级导航 */
-
-
-/* nav div.beautyMakeup{
-    background: lightblue;
-    height: 310px;
-    width: 1190px;
-    margin: 0 auto;
-    position: absolute;
-    top: 40px;
-    z-index: 50;
-    padding: 10px;
-    display: none;
-}
-.beautyMakeup_top{
-    width: 1170px;
-    height: 155px;
-    margin: 0 auto;
-    border-bottom: 1px solid #000;
-} */
-
-
 /* 主体内容区 */
 
 .content>div {
     display: none;
-    background: lightpink;
+    background: rgb(237, 20, 91);
     min-height: 500px;
 }
 
@@ -485,6 +463,10 @@
 
 /* 底部 */
 
+.footer {
+    border-top: 2px solid #cccccc;
+}
+
 .foot {
     /* background: lightgreen; */
     height: 500px;
@@ -606,10 +588,8 @@
 /* 商品列表页样式 */
 
 .goodslist {
-    background: lightgreen;
     overflow: hidden;
-    /* display: flex; */
-    /* justify-content: space-evenly; */
+    background: #fff;
 }
 
 .gLs {
@@ -619,6 +599,10 @@
     margin: 10px 11px;
     float: left;
     border: 1px solid #999999;
+}
+
+.gLs:hover {
+    background: rgb(229, 244, 248);
 }
 
 .gLs p:first-child {
@@ -654,4 +638,5 @@
     padding: 5px 10px;
     border-radius: 3px;
     font-weight: 600;
+    cursor: pointer;
 }

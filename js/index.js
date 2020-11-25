@@ -258,18 +258,30 @@ ajax({
         json.forEach((item, index) => {
             // 创建节点
             var div = document.createElement('div')
-                // 记录索引
-            div.index = index
-                // 给创建的div添加类名
+
+            // 记录索引
+
+            // var id = index + 1 >= 10 ? index + 1 : '0' + (index + 1)
+            if (index + 1 >= 10) {
+                var id = index + 1
+            } else {
+                var id = '0' + (index + 1)
+            }
+
+
+            // 给创建的div添加类名
             div.className = 'gLs'
-                // 给div添加数据
-            div += `
-                    <p>【非自营】</p>
-                    <p><img src="${item.imgurl}" alt=""></p>
-                    <p>${item.title}</p>
-                    <p><i>￥</i><span>${item.price}</span></p>
-                    <p><span id='${item.code}'>去看看</span></p>
-                    `
+
+            // 给div添加数据
+            div.innerHTML = `
+                <p>【非自营】</p>
+                <p><img src="${item.imgurl}" alt=""></p>
+                <p>${item.title}</p>
+                <p><span>${item.price}</span></p>
+                <p><a href="./details.html?id=${id}"><span id='${item.id}'>去看看</span></a></p>
+                `
+
+            // 把创建的div 添加（渲染）到goodslist 里面
             goodslist.appendChild(div)
         });
     },

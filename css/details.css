@@ -23,11 +23,18 @@ html {
     align-items: center;
 }
 
+.head-bot a:first-child {
+    border: 0;
+    width: 170px;
+    height: 62px;
+}
+
 
 /* 购物车按钮 */
 
-.head-bot>span {
+.head-bot>a {
     border: 1px solid #cccccc;
+    display: block;
     width: 140px;
     height: 36px;
     line-height: 36px;
@@ -37,7 +44,7 @@ html {
     color: #999999;
 }
 
-.head-bot>span i {
+.head-bot>a i {
     float: left;
     color: rgb(223, 14, 49);
     margin-right: 5px;
@@ -62,30 +69,40 @@ html {
     position: relative;
 }
 
+
+/* 小盒子 */
+
 .big_img {
     position: relative;
+    width: 300px;
+    height: 300px;
 }
+
+
+/* 小盒子里面的图片 */
 
 .big_img img {
     width: 300px;
+    display: block;
 }
 
 
 /* 蒙板层 */
 
 .mask {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background: rgba(152, 238, 72, 0.5);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 90;
     cursor: move;
+    display: none;
 }
 
 
-/* 放大镜 */
+/* 放大镜 大盒子*/
 
 .magnify {
     width: 300px;
@@ -96,15 +113,30 @@ html {
     left: 300px;
     margin-left: 10px;
     border: 1px solid #000000;
-    /* cursor: move; */
+    overflow: hidden;
+    display: none;
+}
+
+
+/* 大盒子里面的图片 */
+
+.magnify img {
+    width: 600px;
+    height: 600px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 
 /* 小图 */
 
 .big_small {
+    width: 300px;
+    height: 52px;
     display: flex;
-    border: 1px solid #9b9898;
+    /* border: 1px solid #9b9898; */
     margin-top: 60px;
 }
 
@@ -117,13 +149,32 @@ html {
     background: #999999;
 }
 
+.big_small section {
+    width: 248px;
+    height: 52px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+
 .small_img {
-    display: flex;
+    width: 548px;
+    height: 50px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 0.05s;
 }
 
 .small_img img {
     width: 50px;
-    margin: 0 5px;
+    float: left;
+    margin-right: 5px;
+}
+
+.small_img img:first-child {
+    margin-left: 5px;
 }
 
 
@@ -181,6 +232,7 @@ html {
     line-height: 40px;
     color: aliceblue;
     background: rgb(223, 14, 49);
+    cursor: pointer;
 }
 
 

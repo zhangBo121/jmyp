@@ -276,6 +276,10 @@
     margin-right: 5px;
 }
 
+.head-bot>span a {
+    color: #353030;
+}
+
 
 /* 导航部分 */
 
@@ -619,6 +623,10 @@
     font-size: 14px;
     margin: 10px 0;
     padding: 0 5px;
+    height: 38px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 .gLs p:nth-child(4) {
@@ -626,6 +634,10 @@
     font-weight: 900;
     font-size: 24px;
     margin-bottom: 15px;
+}
+
+.goodslist .gLs p:last-child a {
+    color: #e5e5e5;
 }
 
 .gLs p:last-child span {
@@ -637,6 +649,6 @@
     line-height: 26px;
     padding: 5px 10px;
     border-radius: 3px;
-    font-weight: 600;
-    cursor: pointer;
+    font-weight: 550;
+    /* cursor: pointer; */
 }

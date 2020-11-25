@@ -150,7 +150,7 @@
     },
     {
         "id": "07",
-        "title": "YSL圣罗兰自由至上女士香水 EDP浓香水30-50-90ML 2019新品",
+        "title": "YSL圣罗兰自由至上女士香水 EDP浓香水30-50-90ML",
         "imgurl": "../img/goods07.jpg",
         "price": "￥356",
         "detail": {
@@ -175,6 +175,81 @@
     },
     {
         "id": "08",
+        "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "imgurl": "../img/goods08.jpg",
+        "price": "￥249",
+        "detail": {
+            "title": "范思哲（versace）男士香水30ml，灵感元素来自于地中海一透过海洋的光与热，释放出现代男人的智慧与自信，以及和自然建立和谐关系的深刻内涵。尽展男子气概和热情的性格；此香水献给性格强烈，不畏展露热爱时尚，享受使用时展现自然风格与个人特色的男人！",
+            "biglistImg": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ],
+            "detailList": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ]
+        }
+    },
+    {
+        "id": "09",
+        "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "imgurl": "../img/goods08.jpg",
+        "price": "￥249",
+        "detail": {
+            "title": "范思哲（versace）男士香水30ml，灵感元素来自于地中海一透过海洋的光与热，释放出现代男人的智慧与自信，以及和自然建立和谐关系的深刻内涵。尽展男子气概和热情的性格；此香水献给性格强烈，不畏展露热爱时尚，享受使用时展现自然风格与个人特色的男人！",
+            "biglistImg": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ],
+            "detailList": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ]
+        }
+    },
+    {
+        "id": "10",
+        "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "imgurl": "../img/goods08.jpg",
+        "price": "￥249",
+        "detail": {
+            "title": "范思哲（versace）男士香水30ml，灵感元素来自于地中海一透过海洋的光与热，释放出现代男人的智慧与自信，以及和自然建立和谐关系的深刻内涵。尽展男子气概和热情的性格；此香水献给性格强烈，不畏展露热爱时尚，享受使用时展现自然风格与个人特色的男人！",
+            "biglistImg": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ],
+            "detailList": [
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg",
+                "../img/goods08.jpg"
+            ]
+        }
+    },
+    {
+        "id": "11",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
         "imgurl": "../img/goods08.jpg",
         "price": "￥249",

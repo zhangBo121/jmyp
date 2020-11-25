@@ -34,7 +34,7 @@
 
 .main {
     width: 960px;
-    min-height: 700px;
+    min-height: 400px;
     overflow: hidden;
 }
 
@@ -42,8 +42,9 @@
 /* 商品 */
 
 .goods {
-    height: 170px;
+    height: 136px;
     margin: 10px 0;
+    border: 1px solid #cccccc;
 }
 
 .goods_top {
@@ -251,6 +252,7 @@
     background: rgb(242, 242, 242);
     border-top: 1px solid #eeeeee;
     padding-top: 20px;
+    width: 100%;
 }
 
 .foot p {
@@ -266,4 +268,22 @@
 
 .foot ul li {
     margin-left: 15px;
+}
+
+
+/* 购物车无数据 */
+
+.noData {
+    height: 200px;
+    width: 100%;
+}
+
+.noData p {
+    font-size: 30px;
+    color: rgb(248, 57, 119);
+    margin: 100px auto;
+    height: 100px;
+    line-height: 100px;
+    width: 510px;
+    text-align: center;
 }

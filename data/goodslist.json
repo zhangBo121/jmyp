@@ -1,6 +1,7 @@
 [{
         "id": "01",
         "title": "【2支装】资生堂洗颜专科洗面奶 120g*2",
+        "describe": "容量：水果植物（10支装）香型随机发01",
         "imgurl": "../img/goods01.jpg",
         "price": "￥56",
         "detail": {
@@ -26,6 +27,7 @@
     {
         "id": "02",
         "title": "法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒",
+        "describe": "容量：水果植物（10支装）香型随机发02",
         "imgurl": "../img/goods02.jpg",
         "price": "￥95",
         "detail": {
@@ -51,6 +53,7 @@
     {
         "id": "03",
         "title": "【官方授权】SNP黄金胶原蛋白精华面膜 满99立减30",
+        "describe": "容量：水果植物（10支装）香型随机发03",
         "imgurl": "../img/goods03.jpg",
         "price": "￥79",
         "detail": {
@@ -76,6 +79,7 @@
     {
         "id": "04",
         "title": "【多色号可选】RAY蚕丝面膜10片*2 金/银",
+        "describe": "容量：水果植物（10支装）香型随机发04",
         "imgurl": "../img/goods04.jpg",
         "price": "￥65",
         "detail": {
@@ -101,6 +105,7 @@
     {
         "id": "05",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "describe": "容量：水果植物（10支装）香型随机发05",
         "imgurl": "../img/goods05.jpg",
         "price": "￥110",
         "detail": {
@@ -126,6 +131,7 @@
     {
         "id": "06",
         "title": "法国Dior迪奥经典女士香水小样 甜心魅惑真我香水四件套礼盒",
+        "describe": "容量：水果植物（10支装）香型随机发06",
         "imgurl": "../img/goods06.jpg",
         "price": "￥95",
         "detail": {
@@ -151,6 +157,7 @@
     {
         "id": "07",
         "title": "YSL圣罗兰自由至上女士香水 EDP浓香水30-50-90ML",
+        "describe": "容量：水果植物（10支装）香型随机发07",
         "imgurl": "../img/goods07.jpg",
         "price": "￥356",
         "detail": {
@@ -176,6 +183,7 @@
     {
         "id": "08",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "describe": "容量：水果植物（10支装）香型随机发08",
         "imgurl": "../img/goods08.jpg",
         "price": "￥249",
         "detail": {
@@ -201,6 +209,7 @@
     {
         "id": "09",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "describe": "容量：水果植物（10支装）香型随机发09",
         "imgurl": "../img/goods08.jpg",
         "price": "￥249",
         "detail": {
@@ -226,6 +235,7 @@
     {
         "id": "10",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "describe": "容量：水果植物（10支装）香型随机发10",
         "imgurl": "../img/goods08.jpg",
         "price": "￥249",
         "detail": {
@@ -251,6 +261,7 @@
     {
         "id": "11",
         "title": "巴黎L‘ORÉAL PARIS欧莱雅男士水能保湿焕亮滋润露",
+        "describe": "容量：水果植物（10支装）香型随机发11",
         "imgurl": "../img/goods08.jpg",
         "price": "￥249",
         "detail": {

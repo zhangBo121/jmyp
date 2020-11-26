@@ -103,6 +103,7 @@
     width: 60px;
     height: 60px;
     margin: 0 10px;
+    border: 1px solid #999999;
 }
 
 .m_left>div p,
@@ -118,12 +119,14 @@
 }
 
 .m_right>b {
-    margin-left: 20px;
+    width: 90px;
+    text-align: center;
 }
 
 .num {
-    margin-left: 92px;
-    width: 70px;
+    text-align: center;
+    margin-left: 58px;
+    width: 78px;
     display: flex;
 }
 
@@ -154,14 +157,21 @@
 }
 
 .m_right strong {
-    margin-left: 62px;
+    text-align: center;
+    margin-left: 34px;
     width: 80px;
     color: rgb(248, 57, 119);
 }
 
-.m_right span {
-    margin-left: 60px;
+.m_right>em {
+    display: block;
+    margin-left: 70px;
     cursor: pointer;
+}
+
+.m_right>em i {
+    display: block;
+    z-index: 50;
 }
 
 

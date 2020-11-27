@@ -171,8 +171,6 @@ window.onload = function() { //页面加载完，就会有验证码在验证码�
         } else {
             alert("手机号输入错误")
         }
-
-
     }
 
     // 注册

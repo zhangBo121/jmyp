@@ -56,7 +56,7 @@
                     <a href="#" title="聚美优品"><img src="../img/log.png" alt=""></a>
                     <div class="top_search">
                         <div>
-                            <input type="text">
+                            <input type="text" placeholder="这里的功能没写">
                             <span>搜索</span>
                         </div>
                         <ul>
@@ -83,10 +83,10 @@
                     <ul>
                         <li class="active">首页</li>
                         <li>登录注册说明</li>
-                        <li>美妆商城</li>
+                        <li>本站功能描述</li>
                         <li>商品列表</li>
-                        <li>服装运动</li>
-                        <li>鞋包配饰</li>
+                        <li>尚未开发</li>
+                        <li>尚未开发</li>
                     </ul>
                     <div>
                         <span class="iconfont icon-iconzhengpin"></span>
@@ -136,29 +136,64 @@
                         <h2>还记得你的梦想吗？</h2>
                         <img src="../img/leader_pic02_v1.jpg" alt="">
                     </div>
-
-
-
-
-
                 </div>
-
 
                 <!-- 登录注册说明 -->
                 <div>
-                    <div>
-
-                        登录注册说明
+                    <div style="overflow: hidden;">
+                        <p style="text-align: center;font-size: 20px;font-weight: 700;margin-top: 50px;">
+                            登录注册的数据没有写成json 文件，数据在数据库中
+                        </p>
                     </div>
                 </div>
 
+                <!-- 本站功能描述 -->
+                <div>
+                    <div style="overflow: hidden;padding-bottom: 30px;">
+                        <section style="margin-top: 100px;font-size: 20px;text-align: left;font-weight: 700;margin-left: 50px;">
+                            <p>1.首页功能只有一个轮播图和一个导航栏选项卡，css样式不完美</p>
+                            <p>2.商品列表是用数据渲染，点击去看看跳转到详情页，顶部购物车按钮可以实现跳转</p>
+                            <ul>
+                                <p>3.详情页</p>
+                                <li style="margin-left: 20px;">3.1放大镜功能</li>
+                                <li style="margin-left: 20px;">3.2小图实现手动轮播，但有瑕疵</li>
+                                <li style="margin-left: 20px;">3.3整个页面的大部分DOM结构由数据渲染出来，比较消耗性能</li>
+                                <li style="margin-left: 20px;">3.4点击天加到购物车，能将数据储存到本地</li>
+                                <li style="margin-left: 20px;">3.5点击去购物车，可实现跳转</li>
+                                <li style="margin-left: 20px;">3.6下面的商品详情都是图片渲染</li>
+                                <li style="margin-left: 20px;">3.7没有实现商品款式选择</li>
+                                <li style="margin-left: 20px;">3.8点击返回首页，只能返回到有轮播图的页面，而不能返回到商品列表页</li>
+                            </ul>
+                            <ul>
+                                <p>4.购物车页面</p>
+                                <li style="margin-left: 20px;">4.1购物车是由数据渲染，用请求过来的数据和本地数据进行匹配渲染</li>
+                                <li style="margin-left: 20px;">4.2加号、减号、删除、全选、删除选中商品，这些功能都能实现</li>
+                                <li style="margin-left: 20px;">4.3点击返回首页继续购物可实现跳转，但是不能返回商品列表页</li>
+                                <li style="margin-left: 20px;">4.4点击去结算，只勾选最后一个商品时会有 bug</li>
+                            </ul>
+                            <ul>
+                                <p>5.登录注册页</p>
+                                <li style="margin-left: 20px;">5.1有两个选项卡功能</li>
+                                <li style="margin-left: 20px;">5.2随机验证码功能</li>
+                                <li style="margin-left: 20px;">5.3登录成功会延时2秒返回首页，但首页的在登录成功之后的文字没有给</li>
+                                <li style="margin-left: 20px;">5.4记住账号密码功能</li>
+                                <li style="margin-left: 20px;">5.5登录注册都需要打开数据库和服务器</li>
+                                <li style="margin-left: 20px;">5.6手机登录的功能没写</li>
+                            </ul>
+                            <ul>
+                                <p>6.其他</p>
+                                <li style="margin-left: 20px;">6.1不会gulp，自动生成的文件不知道怎么生成</li>
+                                <li style="margin-left: 20px;">6.2 sass的样式写了但是设置不上去</li>
+                                <li style="margin-left: 20px;">6.3每次更改样式功能等不会自动生成带有哈希值的res文件，不知道怎么生成</li>
+                                <li style="margin-left: 20px;">6.4 dist文件夹颜色是灰色的，与其他文件夹颜色不一致，尚未找出原因 </li>
+                                <li style="margin-left: 20px;">6.5 git不熟练</li>
+                                <li style="margin-left: 20px;">6.7页面结构写的比较慢，代码思路和逻辑不清晰，只会CV </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
 
-                <!-- 其他页面 -->
-                <div>美妆商城^</div>
-
-
-                <a href=""></a>
-                <!-- 国际轻著 -->
+                <!-- 商品列表 -->
                 <div>
                     <div class="goodslist gLsCommon">
                         <!-- <div class="gLs">
@@ -171,8 +206,11 @@
 
                     </div>
                 </div>
-                <div>服装运动</div>
-                <div>鞋包配饰</div>
+
+                <!-- 其他页面 -->
+
+                <div>尚未开发</div>
+                <div>尚未开发</div>
             </div>
             <!-- 底部 -->
             <div class="footer">

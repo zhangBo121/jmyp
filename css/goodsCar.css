@@ -198,7 +198,7 @@
 }
 
 .myCar_left p:nth-child(2) a {
-    color: rgb(24, 23, 22);
+    color: rgb(255, 0, 0);
     font-weight: 600;
 }
 

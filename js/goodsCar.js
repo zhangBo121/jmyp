@@ -341,25 +341,24 @@ function dataDemand() {
         // 2.如果勾选了商品
         //     1.获取总价，把总价生成一个本地数据的属性，并添加进本地数据
         //     2.更新本地数据
-        //     3.删除已勾选的对应的商品
+        //     3.删除已勾选的对应的商品的盒子
         // 3.如果没有勾选商品
         //     1.弹框告诉用户，没有勾选商品
 
         if (target.className == 'windUp') {
             var checks = document.querySelectorAll('.check01') //获取每个商品的选择框
-
+            var flag = false //声明一个开关
             for (var i = 0; i < checks.length; i++) {
-                console.log(checks[i].checked);
-                if (checks[i].checked) {
-                    console.log('去结算');
-                    // return
-                } else {
-                    console.log('请先勾选需要结算的商品');
-                    // alert('请先勾选需要结算的商品')
-                    // return
-                }
-                return
+                if (checks[i].checked) flag = true
             }
+            if (flag) {
+                console.log('去结算')
+
+
+            } else {
+                console.log('请勾选');
+            }
+            // console.log(a);
             return
         }
 
@@ -426,3 +425,12 @@ function dataDemand() {
         total() //计算总价
     }
 }
+
+
+
+
+
+// var arr = [true, true, true]
+// console.log(arr.some(item => item))
+// console.log(arr.some((item, index) => { return item === true }))
+// console.log(arr.every((item, index) => { return item === true }))

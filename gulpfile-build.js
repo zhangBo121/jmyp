@@ -1,4 +1,4 @@
-// console.log('构建生成环境的包')
+// console.log('构建生产环境的包')
 let { task, src, dest, watch, series, parallel } = require('gulp')
 let load = require('gulp-load-plugins')()
 let del = require('del')
